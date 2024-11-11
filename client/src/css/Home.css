@@ -1,0 +1,76 @@
+#tasks_container{
+    width: 100%;
+    height: calc(100% - 5rem);
+
+    padding: 1rem;
+
+    background-color: rgb(230, 230, 230);
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    align-content: start;
+
+    gap: 2rem;
+    row-gap: 2rem;
+
+    overflow-y: auto;
+    scrollbar-width: thin;
+
+    .task-card{
+        width: 250px;
+        height: 170px;
+
+        padding: 12px;
+
+        border-radius: 12px;
+
+        color: white;
+
+        .task-title-container{
+            height: 20%;
+            border-bottom: 1px solid white;
+            font-size: 12px;
+            overflow-x: hidden;
+        }
+
+        .task-description-container{
+            height: 60%;
+        }
+
+        .task-options-container{
+            height: 20%;
+
+            display: flex;
+
+            justify-content: flex-end;
+            align-items: center;
+
+            gap: 1rem;
+
+            a, button{
+                width: 28px;
+                height: 28px;
+
+                border: 0;
+                border-radius: 50%;
+                background-color: transparent;
+
+                display: grid;
+                place-items: center ;
+
+                color: black;
+                cursor: pointer;
+
+                transition: ease-in-out 150ms;
+            }
+
+            a:hover, button:hover{
+                background-color: rgba(203, 255, 238, 0.76);
+            }
+        }
+
+    }
+
+}

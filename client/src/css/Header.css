@@ -1,0 +1,64 @@
+#tasks_header{
+    width: 100%;
+    height: 5rem;
+
+    padding: 1rem;
+
+    border-bottom: 1px solid gray;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+    .tasks-title{
+        padding: 8px 12px;
+
+        font-size: 24px;
+
+        text-decoration: none;
+        text-align: center;
+
+        font-weight: bold;
+        color: black;
+
+        transition: ease-in-out 150ms;
+    }
+
+    .tasks-title:hover{
+        background-color: deepskyblue;
+    }
+
+    .tasks-newtask{
+        width: 150px;
+        height: 100%;
+
+        border: 1px solid gray;
+        border-radius: 8px;
+
+        background-color: aqua;
+
+        display: flex;
+
+        justify-content: space-evenly;
+        align-items: center;
+
+        text-decoration: none;
+        color: rgb(82, 82, 82);
+
+        transition: ease-in-out 170ms;
+
+        i{
+            padding: 6px;
+            background-color: rgb(177, 212, 174);
+            border-radius: 50%;
+        }
+
+    }
+
+    .tasks-newtask:hover{
+        background-color: rgb(178, 255, 255);
+    }
+
+}

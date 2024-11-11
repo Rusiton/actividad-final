@@ -1,0 +1,96 @@
+.edit-task-container{
+    width: 100%;
+    height: calc(100% - 5rem);
+
+    background-color: rgb(230, 230, 230);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .edit-task{
+        width: 400px;
+        height: 500px;
+
+        padding: 1rem;
+
+        border: 1px solid gray;
+        border-radius: 1rem;
+
+        background-color: rgb(169, 215, 255);
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        h1{
+            margin-bottom: 1rem;    
+            width: 100%;
+            border-bottom: 1px solid gray;
+            text-align: center;
+        }
+
+        .title-container{
+            width: 100%;
+
+            padding: 1rem;
+
+            input{
+                height: 3rem;
+                width: 100%;
+
+                padding: 8px;
+
+                border: 1px solid gray;
+                border-radius: 26px;
+
+                background-color: rgb(231, 231, 231);
+            }
+
+        }
+
+        .description-container{
+            width: 100%;
+            
+            padding: 1rem;
+
+            textarea{
+                width: 100%;
+                height: 160px;
+
+                padding: 8px;
+
+                border: 1px solid gray;
+                border-radius: 1rem;
+
+                background-color: rgb(231, 231, 231);
+
+                resize: none;
+            }
+
+        }
+
+        button{
+            width: 150px;
+            height: 3rem;
+
+            border: 1px solid gray;
+            border-radius: 1rem;
+
+            background-color: rgb(186, 255, 186);
+
+            font-size: 18px;
+            font-weight: bold;
+
+            transition: ease-in-out 150ms;
+        }
+
+        button:enabled:hover{
+            cursor: pointer;
+            background-color: rgb(145, 255, 145);;
+        }
+
+    }
+
+}
