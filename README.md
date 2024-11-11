@@ -21,4 +21,4 @@ Para poder ejecutar el proyecto 'actividad-final' correctamente, primero se debe
 4. Crear el archivo **.env** con las siguientes variables de entorno y sus respectivas credenciales: ***DB_HOST*** / ***DB_USER*** / ***DB_PASSWORD*** / ***DB_NAME*** / ***API_KEY***
 5. Ejecutar ***npm run dev***
 
-*Nota: La carpeta client será ejecutada en el puerto 5174*
+*Nota: La carpeta server será ejecutada en el puerto 5174*
