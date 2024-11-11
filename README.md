@@ -2,6 +2,8 @@
 
 Para poder ejecutar el proyecto 'actividad-final' correctamente, primero se deben seguir los siguientes pasos.
 
+1. Clonar el repositorio en tu computadora y entrar
+
 ## Client Side
 
 1. Entrar a la carpeta **client**.
